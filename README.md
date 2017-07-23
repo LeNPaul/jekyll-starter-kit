@@ -1,1 +1,0 @@
-# jekyll-starter-kit
