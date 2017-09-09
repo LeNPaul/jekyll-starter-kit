@@ -3,3 +3,9 @@ description: 'A simple framework for starting your own Jekyll project'
 
 author:
   name: 'Paul Le'
+
+menu:
+- {name: 'About', url: 'about.html'}
+- {name: 'Projects', url: 'projects.html'}
+- {name: 'Blog', url: 'blog.html'}
+- {name: 'Contact', url: 'contact.html'}
