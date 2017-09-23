@@ -5,14 +5,13 @@ author:
   name: 'Paul Le'
 
 menu:
-- {name: 'About', url: 'about.html'}
-- {name: 'Projects', url: 'projects.html'}
-- {name: 'Blog', url: 'blog.html'}
+- {name: 'Readme', url: 'about.html'}
+- {name: 'Repository', url: 'projects.html'}
 - {name: 'Contact', url: 'contact.html'}
 
 social:
 - {icon: 'github', link: 'https://www.github.com/lenpaul'}
 - {icon: 'twitter', link: 'https://twitter.com/paululele'}
+- {icon: 'instagram', link: 'https://instagram.com/paululele'}
 - {icon: 'linkedin', link: 'http://www.linkedin.com/in/lenpaul/'}
 - {icon: 'envelope', link: 'mailto:l.nguyen.paul@gmail.com'}
-- {icon: 'rss-square', link: 'feed.xml'}
