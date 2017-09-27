@@ -6,8 +6,6 @@ author:
   name: 'Paul Le'
 
 menu:
-- {name: 'Readme', url: 'about.html'}
-- {name: 'Repository', url: 'projects.html'}
 - {name: 'Contact', url: 'contact.html'}
 
 social:
