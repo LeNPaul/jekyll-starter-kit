@@ -6,7 +6,8 @@ author:
   name: 'Paul Le'
 
 menu:
-- {name: 'Contact', url: 'contact.html'}
+# Uncomment to activate the menu looping function in the header.html file under _includes
+#- {name: 'About', url: 'about.html'}
 
 social:
 - {icon: 'github', link: 'https://www.github.com/lenpaul'}
