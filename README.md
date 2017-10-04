@@ -6,6 +6,10 @@ This repository contains a simple framework for starting your own Jekyll project
 
 Instead of always starting from a blank slate and having to look through my past work to find what I needed, or having to always strip down the default the Jekyll theme before I even start adding my own code, I decided to take all of the lessons and best practices that I learned from building my first few Jekyll sites, and distill them into a simple framework for starting my next Jekyll project. Hopefully, this may interest some of you who are looking to build your own Jekyll sites, and would like a framework to start from.
 
+### Getting Started
+
+The Jekyll Starter Kit comes ready to use out of the box - simply fork or clone this repository, and you can start developing your Jekyll site right away. Navigate to the root folder using the command line, and type in `jekyll serve`. If you would like to start with a blank slate, then delete the contents in the `index.html` file and the sample code in the `all.sass` file.
+
 ### Assets
 
 This folder contains all of the images, CSS, and JavaScript for the site, and within these folders, there is some structure that will help in organizing all of your assets.
