@@ -1,11 +1,3 @@
-# Jekyll Starter Kit
-
-### What Is This?
-
-
-
-
-
 ### Getting Started
 
 The Jekyll Starter Kit comes ready to use out of the box - simply fork or clone this repository, and you can start developing your Jekyll site right away. Navigate to the root folder using the command line, and type in `jekyll serve`. If you would like to start with a blank slate, then delete the contents in the `index.html` file and the sample code in the `all.sass` file.

@@ -1,16 +1,14 @@
-# jekyll-starter-kit
+# Jekyll Starter Kit
 
 The Jekyll Starter Kit is a simple framework for starting your own Jekyll project. It was created out of a need to have a simple and quick framework to build my Jekyll sites from. I noticed that there were a number of things that were common among all of my Jekyll sites, from certain best practices for web development, to ways that I liked to do things, to certain styles that I always used.
 
 Instead of always starting from a blank slate and having to look through my past work to find what I needed, or having to always strip down the default the Jekyll theme before I even start adding my own code, I decided to take all of the lessons and best practices that I learned from building my first few Jekyll sites, and distill them into a simple framework for starting my next Jekyll project. Hopefully, this may interest some of you who are looking to build your own Jekyll sites, and would like a framework to start from.
 
-a minimalist Jekyll theme for running a personal blog or site for free through [Github Pages](https://pages.github.com/), or on your own server. Everything that you will ever need to know about this Jekyll theme is included in the README below, which you can also find in [the demo site](https://lenpaul.github.io/jekyll-starter-kit/).
-
 ![alt text](https://user-images.githubusercontent.com/8409329/32631384-17107870-c56e-11e7-932f-deeb7c12e4db.png "jekyll-starter-kit Demo Image")
 
 ## Notable features
 
-* Compatible with GitHub Pages.
+* Compatible with [Github Pages](https://pages.github.com/).
 
 * Support for Jekyll's built-in Sass/SCSS preprocessor and data files for making customizing easier.
 
@@ -56,7 +54,7 @@ a minimalist Jekyll theme for running a personal blog or site for free through [
 
 ## Introduction
 
-jekyll-starter-kit is a Jekyll theme that was built to be 100% compatible with [GitHub Pages](https://pages.github.com/). If you are unfamiliar with GitHub Pages, you can check out [their documentation](https://help.github.com/categories/github-pages-basics/) for more information. [Jonathan McGlone's guide](http://jmcglone.com/guides/github-pages/) on creating and hosting a personal site on GitHub is also a good resource.
+Jekyll Starter Kit is a Jekyll theme that was built to be 100% compatible with [GitHub Pages](https://pages.github.com/). If you are unfamiliar with GitHub Pages, you can check out [their documentation](https://help.github.com/categories/github-pages-basics/) for more information. [Jonathan McGlone's guide](http://jmcglone.com/guides/github-pages/) on creating and hosting a personal site on GitHub is also a good resource.
 
 ### What is Jekyll?
 
