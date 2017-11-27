@@ -4,21 +4,13 @@ The Jekyll Starter Kit is a simple framework for starting your own Jekyll projec
 
 Instead of always starting from a blank slate and having to look through my past work to find what I needed, or having to always strip down the default the Jekyll theme before I even start adding my own code, I decided to take all of the lessons and best practices that I learned from building my first few Jekyll sites, and distill them into a simple framework for starting my next Jekyll project. Hopefully, this may interest some of you who are looking to build your own Jekyll sites, and would like a framework to start from.
 
-![alt text](https://user-images.githubusercontent.com/8409329/32631384-17107870-c56e-11e7-932f-deeb7c12e4db.png "jekyll-starter-kit Demo Image")
-
 ## Notable features
 
 * Compatible with [Github Pages](https://pages.github.com/).
 
 * Support for Jekyll's built-in Sass/SCSS preprocessor and data files for making customizing easier.
 
-* [Google Analytics](https://www.google.com/analytics/) support.
-
-* Commenting support powered by [Disqus](https://disqus.com/).
-
 * Optimized for search engines.
-
-* LaTeX support through [MathJax](https://www.mathjax.org/).
 
 ## Table of Contents
 
@@ -54,7 +46,10 @@ Instead of always starting from a blank slate and having to look through my past
 
 ## Introduction
 
-Jekyll Starter Kit is a Jekyll theme that was built to be 100% compatible with [GitHub Pages](https://pages.github.com/). If you are unfamiliar with GitHub Pages, you can check out [their documentation](https://help.github.com/categories/github-pages-basics/) for more information. [Jonathan McGlone's guide](http://jmcglone.com/guides/github-pages/) on creating and hosting a personal site on GitHub is also a good resource.
+The Jekyll Starter Kit comes ready to use out of the box - simply fork or clone this repository, and you can start developing your Jekyll site right away. Navigate to the root folder using the command line, and type in `jekyll serve`. If you would like to start with a blank slate, then delete the sample code in the `all.sass` file.
+
+
+If you are unfamiliar with [GitHub Pages](https://pages.github.com/), you can check out [their documentation](https://help.github.com/categories/github-pages-basics/) for more information. [Jonathan McGlone's guide](http://jmcglone.com/guides/github-pages/) on creating and hosting a personal site on GitHub is also a good resource.
 
 ### What is Jekyll?
 
@@ -97,6 +92,22 @@ jekyll-starter-kit/
 ├── _config.yml                # Site build settings
 └── index.md                   # Home page
 ```
+
+### Assets
+
+This folder contains all of the images, CSS, and JavaScript for the site, and within these folders, there is some structure that will help in organizing all of your assets.
+
+#### CSS
+
+This folder is further subdivided into `1-tools`, `2-base`, and `3-sections`. The 'tools' folder can be used to store CSS libraries or generic CSS files that you may have that you use for your other projects. The 'base' folder is used to store any CSS relating to styling HTML tags, for example. The 'sections' folder is the one that you will probably use the most, and will be where you store your main CSS styling. Generally, I try to have one SASS file corresponding to an HTML file in the `includes` or `layouts` folder.
+
+### Managing Site variables
+
+Whenever possible, I try to avoid hardcoding certain values into the site code, such as author names, menu links, and so on. Fortunately, Jekyll offers tools that allow you to manage your site variables easily, allowing you to use variables in place of hardcoded values. I typically store all site variables in the `_data` folder, under the `settings.yml` files. It's not too difficult to add more files to better organize your site variables, and then just add them into your site using [Liquid tags and variables]().
+
+### CSS Styling
+
+Following the paradigm above, all the SASS variables can be found in the `all.sass` file in the `assets/css` folder directory. I try to turn commonly used styles into variables that I can call in the SASS code, instead of always having to hardcode everything.
 
 ### Starting From Scratch
 
@@ -154,11 +165,6 @@ title:
 categories:
 tags: []
 image:
-  feature:
-  teaser:
-  credit:
-  creditlink:
-
 ---
 ```
 
@@ -182,18 +188,13 @@ It is possible to track your site statistics through [Google Analytics](https://
 
 Atom is supported through [Jekyll-Feed](https://github.com/jekyll/jekyll-feed) and RSS 2.0 is supported through [RSS autodiscovery](http://www.rssboard.org/rss-autodiscovery).
 
-
 ### Social Media Icons
 
 All social media icons are courtesy of [Font Awesome](http://fontawesome.io/). You can change which icons appear, as well as the account that they link to, in the `settings.yml` file in the `_data` folder.
 
-### MathJax
-
-jekyll-starter-kit comes out of the box with [MathJax](https://www.mathjax.org/), which allows you to display mathematical equations in your posts through the use of [LaTeX](http://www.andy-roberts.net/writing/latex/mathematics_1).
-
 ### Syntax Highlighting
 
-jekyll-starter-kit provides syntax highlighting through [fenced code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/). Syntax highlighting allows you to display source code in different colors and fonts depending on what programming language is being displayed. You can find the full list of supported programming languages [here](https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers). Another option is to embed your code through [Gist](https://en.support.wordpress.com/gist/).
+The Jekyll Starter Kit provides syntax highlighting through [fenced code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/). Syntax highlighting allows you to display source code in different colors and fonts depending on what programming language is being displayed. You can find the full list of supported programming languages [here](https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers). Another option is to embed your code through [Gist](https://en.support.wordpress.com/gist/).
 
 ### Markdown
 
@@ -211,7 +212,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 If you would like to make a feature request, or report a bug or typo in the documentation, then please [submit a GitHub issue](https://github.com/LeNPaul/jekyll-starter-kit/issues/new). If you would like to make a contribution, then feel free to [submit a pull request](https://help.github.com/articles/about-pull-requests/) - as a bonus, I will credit all contributors below! If this is your first pull request, it may be helpful to read up on the [GitHub Flow](https://guides.github.com/introduction/flow/) first.
 
-jekyll-starter-kit has been designed as a base for users to customize and fit to their own unique needs. Please keep this in mind when requesting features and/or submitting pull requests. Some examples of changes that I would love to see are things that would make the site easier to use, or better ways of doing things. Please avoid changes that do not benefit the majority of users.
+The Jekyll Starter Kit has been designed as a base for users to customize and fit to their own unique needs. Please keep this in mind when requesting features and/or submitting pull requests. Some examples of changes that I would love to see are things that would make the site easier to use, or better ways of doing things. Please avoid changes that do not benefit the majority of users.
 
 ## Questions?
 
